@@ -11,7 +11,7 @@ O que isso quer dizer? Robert está nos dizendo que quando desejamos depender de
 Quando não dependemos direto de uma classe concreta e sim de uma classe abstrata ou uma interface, estamos tirando o alto acoplamento entre módulos de alto nivel para os módulos de baixo nível e vice-versa o que no implica dizer que a frase dita por Robert é show!
 
 ## Como depender das abstrações?
-    Após ter efetuados a injeção  de Dependência, podemos ter  um container que container de serviços que faz todo o trabalho de criar instâncias as classes abstratas e/ou interfaces criadas, esse container fornece métodos que indicam quais são os ciculos de vida de cada instância criada.
+Após ter efetuados a injeção  de Dependência, podemos ter  um container que container de serviços que faz todo o trabalho de criar instâncias as classes abstratas e/ou interfaces criadas, esse container fornece métodos que indicam quais são os ciculos de vida de cada instância criada.
 
 ### O que faz os Containers?
 Os conteiners forncece métodos que mapeiam as classes abstratas/interfaces  com a classe concretas
