@@ -21,6 +21,6 @@ Transient: New Instance => Criada uma nova instância do serviço toda vez que �
 
 Scoped: cria uma nova instância para cada escopo. (Cada solicitação é um Escopo). Dentro do escopo, ele reutiliza o serviço existente.
 
-Singleton : Cria um novo serviço apenas uma vez durante a vida útil do aplicativo e o usa em todos os lugares
+Singleton: Cria um novo serviço apenas uma vez durante a vida útil do aplicativo e o usa em todos os lugares
 
 ## Quais os Atores da Injeção de Depêndencia?
